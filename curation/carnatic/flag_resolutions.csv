@@ -1,0 +1,16 @@
+song_id,song_file,action,set_title_iso,duplicate_of,resolution
+963,Sharanu Janakana.json,duplicate,śaraṇu benakane,3722,Garbled title of Purandara Dāsa’s “śaraṇu benakane” (same lyric as #3722); retitled.
+6893,Mereyadiru Mareyadiru.json,duplicate,,7640,Same song as #7640 “mareyadiru mareyadiru” (Kanaka Dāsa).
+7490,Nambhida Ninna.json,duplicate,,3444,"Same song as #3444 “nambide ninna pāda”. Published setting: Śaṅkarābharaṇa, aṭa tāḷa; this recording is in Soorya."
+7587,Hari Hari Yenalike.json,duplicate,,3443,Same text as #3443 “hari hariyenikke” (Pūrvikalyāṇi); this entry is a recording in Kalyāṇavasantam.
+8254,Taka Tadimi Yenuta.json,duplicate,tāttata dhimita,2205,Garbled title of “tattata dhimita dhimiki enuta hariyāḍidane” (#2205); retitled.
+2602,Karuniso Ranga.json,lyric_mismatch,,,The repo’s lyric for this song is Bhāratiyār’s Tamil “tūṇḍiṟ puḻuvinaippōl”; the title and attribution are unaffected.
+5434,Bandide Indu Susandhi.json,attribution,,,Attribution to Purandara Dāsa (d. 1564) is doubtful: the song addresses Rāghavēndra Tīrtha (d. 1671) at the Tuṅgā and his bṛndāvana. Composer not identified.
+7751,Ninna Nambide Raghavendra.json,attribution,,,Attribution to Purandara Dāsa (d. 1564) is doubtful: the song is addressed to Rāghavēndra Tīrtha (d. 1671). Composer not identified.
+9529,Sharanara Sura.json,retitle,śaraṇara surabhūja,,"surabhūja (celestial tree, i.e. wish-granting) for the lyric’s “surabhOja”."
+4165,Enu Madelo Ranga.json,note,,,"Lyric opens “ēnu māḍalō magane, yāke beḷagāyitō”; the source title reads “Enu Madelo Ranga”."
+5301,Narahariye Ninna.json,note,,,Title is the anupallavi; the lyric’s pallavi is “śrī ramaṇa tava caraṇa dorakuvadu”.
+7069,Hariyembuvude.json,note,,,The repo lyric opens with the ugābhōga “elli harikathā prasaṃgavō”; the song proper is “jaya hari eṃbuvude”.
+7297,Kereya Neeranu.json,note,,,Popularly titled by its caraṇa; the pallavi is “hariya karuṇadoḷāda bhāgyava”.
+8078,Antahpura Geethe.json,note,,,"“Antaḥpura Gīte” is D. V. Gundappa’s song cycle; the recordings are songs from it, not one incipit."
+9496,Poolachendadihane.json,language_unverified,,,No lyric; “pūla-” could be Telugu. Language unverified.

@@ -68,6 +68,10 @@ def write_csv(path, rows, cols):
         w.writerows(rows)
 
 
+RESOLUTION_LABELS = {'duplicate': 'Duplicate entry', 'attribution': 'Attribution doubtful', 'lyric_mismatch': 'Repo lyric is another song',
+                     'language_unverified': 'Language unverified'}
+
+
 def clean_raga(r):
     return '' if r in (None, 'Unknownraga') else ('Rāgamālikā' if r == 'Ragamalika' else r)
 
@@ -81,6 +85,8 @@ def main():
     songs = load_songs()
     review = {r['song_file']: r for r in read_csv(os.path.join(CUR, 'carnatic', 'song_review.csv'))}
     samaharam = read_csv(os.path.join(CUR, 'carnatic', 'dikshitar_samaharam.csv'))
+    res_path = os.path.join(CUR, 'carnatic', 'flag_resolutions.csv')
+    resolutions = {r['song_file']: r for r in read_csv(res_path)} if os.path.exists(res_path) else {}
     SAN = set(rules['sanskrit_language_tags'])
     FORM, SERIES = rules['form_names'], rules['series_names']
     excl = re.compile(rules['exclude_note_pattern'], re.I)
@@ -145,15 +151,28 @@ def main():
             trad = 'Haridāsa' if c in rk['haridasa_composers'] or c.endswith('Dasa') else ''
             row = dict(base, title_iso=v['title_iso'], tradition=trad, form=FORM.get(g['type'], g['type'] or 'Kṛti / Dēvaranāma'), check='; '.join(flags))
             (kannada_free if free else kannada_comp).append(row)
+    # 3. Resolved flags: retitles, duplicates, doubtful attributions, mismatched lyrics
+    for r in composed + stotras + kannada_comp + kannada_free:
+        res = resolutions.get(r.get('song_file'))
+        if not res:
+            continue
+        if res['set_title_iso']:
+            r['title_iso'] = res['set_title_iso']
+        if res['duplicate_of']:
+            r['duplicate_of'] = res['duplicate_of']
+        label = RESOLUTION_LABELS.get(res['action'])
+        if label:
+            r['check'] = '; '.join(x for x in (r.get('check'), label) if x)
+        r['note'] = ' · '.join(x for x in (r.get('note'), res['resolution']) if x)
     for r in composed + stotras:
         r['title_devanagari'] = to_devanagari(r.get('title_iast'))
     for r in kannada_comp + kannada_free:
         r['title_kannada'] = to_kannada(r.get('title_iso'))
     os.makedirs(OUT, exist_ok=True)
     sc = ['title_iast', 'title_devanagari', 'source_title', 'composer', 'form', 'series', 'raga', 'tala', 'deity', 'kshetra', 'recordings',
-          'source_language', 'basis', 'confidence', 'check', 'note', 'source', 'song_file', 'song_id']
+          'source_language', 'basis', 'confidence', 'check', 'note', 'source', 'song_file', 'song_id', 'duplicate_of']
     kc = ['title_kannada', 'title_iso', 'source_title', 'composer', 'tradition', 'form', 'raga', 'tala', 'deity', 'recordings', 'source_language',
-          'confidence', 'check', 'note', 'source', 'song_file', 'song_id']
+          'confidence', 'check', 'note', 'source', 'song_file', 'song_id', 'duplicate_of']
     key = lambda r: ((r.get('composer') or '').lower(), r.get('title_iast') or r.get('title_iso') or '')
     write_csv(os.path.join(OUT, 'sanskrit_composed.csv'), sorted(composed, key=key), sc)
     write_csv(os.path.join(OUT, 'sanskrit_stotras.csv'), sorted(stotras, key=key), sc)

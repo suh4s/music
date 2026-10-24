@@ -11,6 +11,7 @@ Each curated judgement is keyed to a song file (`Carnatic/song/<name>.json`) and
 | `rules.json` | Classification rules: which forms count as stotras or free-form, composer sets, display names for forms and series |
 | `carnatic/song_review.csv` | One row per reviewed song: language verdict, confidence, corrected IAST (Sanskrit) or ISO 15919 (Kannada) title, note |
 | `carnatic/dikshitar_samaharam.csv` | Muttusvāmi Dīkṣitar's 484 kṛtis from P. P. Narayanaswami's *Kīrtana Samāhāram* (guruguha.org, 2007), with the repo song files matched to each and rāga/tāla sources for the 34 with no recording |
+| `carnatic/flag_resolutions.csv` | How each flagged row was resolved: retitles, duplicate entries (`duplicate_of`), doubtful attributions, repo lyrics that belong to another song |
 | `carnatic/stotra_seed.csv` | A few well-known concert stotras the repo has no recording of (e.g. Śyāmalā Daṇḍakam) |
 | `carnatic/lists/*.csv` | **Generated** by `tools/build_lists.py`: Sanskrit composed works, Sanskrit stotras & ślokas, Kannada composed works, Kannada free-form (ugābhōga, vacana, padya) |
 | `carnatic/bmk_compositions.csv` | M. Balamuralikrishna's compositions (repo + published sources), with mēḷa numbers for the Janaka Kṛti Mañjarī |
