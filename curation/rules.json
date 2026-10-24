@@ -1,0 +1,35 @@
+{
+  "_comment": "Classification rules for the curated Sanskrit and Kannada lists. Read by curation/tools/build_lists.py. Data stays in Carnatic/song/*.json; per-song judgements live in curation/carnatic/song_review.csv.",
+  "sanskrit_language_tags": ["Sanskrit", "Sanaskrit", "Sanksrit"],
+  "sanskrit": {
+    "include_review_languages": ["Sanskrit"],
+    "include_unsure_if_source_tag_is_sanskrit": true,
+    "stotra_types": ["Slokam", "Narayaneeyam"],
+    "stotra_authors": ["Adishankara", "Leela Sukhar", "Veda Vyasa", "Budha Koushika", "Melputhoor Narayana Bhattathri"],
+    "stotra_note_pattern": "ślok|slok|stotra|stotram|aṣṭaka|astaka|dhyāna|dhyana|verse|mantra|suprabhāt|nārāyaṇīy|gopī gītā|stuti|daśaka|stava",
+    "taranga_composers": ["Narayana Theertha"]
+  },
+  "kannada": {
+    "free_form_types": ["Ugabhogha", "Vachana", "Slokam", "Virutham"],
+    "free_form_note_pattern": "vacana|vachana|ugābhōga|ugabhoga|ugābhoga|padya|śloka|sloka|verse",
+    "haridasa_composers": ["Purandara Dasa", "Kanaka Dasa", "Vijaya Vittala Dasa", "Vadhiraja Theertha", "Shripadaraya", "Vyasaraya Thirtha",
+                           "Jagannatha Dasa", "Gopala Dasa", "Prasanna Venkata Dasa", "Helavanakatte Giriyamma", "Mahipati Dasa",
+                           "Kamalesha Vittala Dasa", "Raghavendra Swaami"]
+  },
+  "exclude_note_pattern": "not a (song|composition)|concert|lecture|interview|instrumental|placeholder|not a title|section heading",
+  "form_names": {
+    "Krithi": "Kṛti", "Varnam": "Varṇa", "Nottu": "Noṭṭusvara", "Ashtapadi": "Aṣṭapadī", "Geetham": "Gīta", "Swarajathi": "Svarajati",
+    "Padam": "Pada", "Javali": "Jāvaḷi", "Thillana": "Tillānā", "Mangalam": "Maṅgaḷa", "Bhajan": "Bhajan", "Slokam": "Śloka",
+    "Narayaneeyam": "Nārāyaṇīyam (daśaka)", "Ugabhogha": "Ugābhōga", "Vachana": "Vacana", "Virutham": "Viruttam", "Abhang": "Abhaṅg"
+  },
+  "series_names": {
+    "Janaka krithi manjari": "Janaka Kṛti Mañjarī (72 mēḷakarta)", "Shodasa ganapati": "Ṣoḍaśa Gaṇapati",
+    "Kamakshi navavaranam": "Kāmākṣī Navāvaraṇa", "Kamalamba navavaranam": "Kamalāmbā Navāvaraṇa", "Abhayamba vibhakthi": "Abhayāmbā Vibhakti",
+    "Navagraha": "Navagraha", "Navarathri": "Navarātri", "Nilotpalamba": "Nīlotpalāmbā Vibhakti", "Guruguha vibhakti": "Guruguha Vibhakti",
+    "Rama vibhakti": "Rāma Vibhakti", "Thyagaraja vibhakti": "Tyāgarāja Vibhakti", "Madhuramba vibhakti": "Madhurāmbā Vibhakti",
+    "Saptaratna": "Saptaratna", "Anjaneya saptaratna": "Āñjaneya Saptaratna", "Pancha bhootha": "Pañcabhūta Liṅga", "Pancha linga": "Pañcaliṅga",
+    "Pancharathnam": "Pañcaratna", "35 Tala": "35 Tāla", "Kucelopakhyanam": "Kucelopākhyāna", "Ajamilopakhyanam": "Ajāmilopākhyāna",
+    "Utsava prabandham": "Utsava Prabandha", "Prahlada Bhakti Vijayam": "Prahlāda Bhakti Vijayam", "Narayaneeyam": "Nārāyaṇīyam",
+    "Ashtapadi": "Gītagovinda"
+  }
+}
