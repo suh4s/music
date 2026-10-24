@@ -24,7 +24,8 @@ Each curated judgement is keyed to a song file (`Carnatic/song/<name>.json`) and
 - **Language** comes from `song_review.csv`, not the source tag. Every row was re-read from its title and, where the repo has
   them, its lyrics. The source tag is often wrong: e.g. Muthiah Bhāgavatar's pieces open with Sanskrit vocatives but
   continue in Kannada or Telugu, and many Sanskrit works are tagged Telugu or carry no tag at all.
-  An independent re-check of random samples found ≈1.8% errors in Sanskrit titles and ≈12% (mostly minor) in Kannada titles.
+  An independent re-check of random samples found ≈1.8% errors in Sanskrit titles and ≈12% (mostly minor) in Kannada titles;
+  a second pass then re-checked every Kannada title against its first lyric line (103 corrected, 15 flagged in `note`).
 - **Sanskrit composed vs stotras:** composed = song forms whose setting the composer or sampradāya fixed (kṛti, varṇa,
   aṣṭapadī, taraṅga, navāvaraṇa…); stotras & ślokas = recited literature performers set to rāgas of their choice.
 - **Kannada composed vs free-form:** tāla-bound songs vs ugābhōga / vacana / padya.
