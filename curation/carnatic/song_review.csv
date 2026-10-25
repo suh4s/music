@@ -5044,3 +5044,4 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 10597,Athi Aasvija.json,Athi Aasvija,Sanskrit,Sanskrit,low,ati āśvija,,"No lyric; reading of ""athi"" uncertain"
 10598,Hanumanai Ninaithale.json,Hanumanai Ninaithale,Sanskrit,Tamil,high,,,"Tamil (-ai, ninaittālē); src_lang says Sanskrit"
 10599,Sri Maathe Shive.json,Sri Maathe Shive,,Unsure,low,,,
+10604,Jaya Devaki.json,Jaya Devaki,Sanskrit,Sanskrit,high,jaya devakī kiśora,,added with upstream 71a78803; title from the pallavi
