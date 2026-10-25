@@ -151,7 +151,12 @@ def main():
             trad = 'Haridāsa' if c in rk['haridasa_composers'] or c.endswith('Dasa') else ''
             row = dict(base, title_iso=v['title_iso'], tradition=trad, form=FORM.get(g['type'], g['type'] or 'Kṛti / Dēvaranāma'), check='; '.join(flags))
             (kannada_free if free else kannada_comp).append(row)
-    # 3. Resolved flags: retitles, duplicates, doubtful attributions, mismatched lyrics
+    # 3. Well-known concert stotras the repo has no recording of
+    seed_path = os.path.join(CUR, 'carnatic', 'stotra_seed.csv')
+    for s in (read_csv(seed_path) if os.path.exists(seed_path) else []):
+        stotras.append(dict(title_iast=s['title_iast'], source_title=s['title'], composer=s['author'], form=s['form'], recordings=0,
+                            basis='Curated seed (no recording in repo)', note=s['note'], source=s['text_url']))
+    # 4. Resolved flags: retitles, duplicates, doubtful attributions, mismatched lyrics
     for r in composed + stotras + kannada_comp + kannada_free:
         res = resolutions.get(r.get('song_file'))
         if not res:
