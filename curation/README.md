@@ -12,6 +12,7 @@ Each curated judgement is keyed to a song file (`Carnatic/song/<name>.json`) and
 | `carnatic/song_review.csv` | One row per reviewed song: language verdict, confidence, corrected IAST (Sanskrit) or ISO 15919 (Kannada) title, note |
 | `carnatic/dikshitar_samaharam.csv` | Muttusvāmi Dīkṣitar's 484 kṛtis from P. P. Narayanaswami's *Kīrtana Samāhāram* (guruguha.org, 2007), with the repo song files matched to each and rāga/tāla sources for the 34 with no recording |
 | `carnatic/flag_resolutions.csv` | How each flagged row was resolved: retitles, duplicate entries (`duplicate_of`), doubtful attributions, repo lyrics that belong to another song |
+| `carnatic/attributions.csv` | Composers for works the repo leaves unattributed, from research (Oct 2026): name used, name as found, role (composer / words / text), dates, confidence, evidence and source URLs. Rows with `apply=yes` (high/med) fill the composer column of the lists and are flagged “Composer from research”; the rest are leads. `set_form` corrects the form (bhajan, bhāvagīte, lakṣaṇa gīta…) |
 | `carnatic/stotra_seed.csv` | A few well-known concert stotras the repo has no recording of (e.g. Śyāmalā Daṇḍakam) |
 | `carnatic/lists/*.csv` | **Generated** by `tools/build_lists.py`: Sanskrit composed works, Sanskrit stotras & ślokas, Kannada composed works, Kannada free-form (ugābhōga, vacana, padya) |
 | `carnatic/bmk_compositions.csv` | M. Balamuralikrishna's compositions (repo + published sources), with mēḷa numbers for the Janaka Kṛti Mañjarī |
@@ -30,6 +31,10 @@ Each curated judgement is keyed to a song file (`Carnatic/song/<name>.json`) and
 - **Sanskrit composed vs stotras:** composed = song forms whose setting the composer or sampradāya fixed (kṛti, varṇa,
   aṣṭapadī, taraṅga, navāvaraṇa…); stotras & ślokas = recited literature performers set to rāgas of their choice.
 - **Kannada composed vs free-form:** tāla-bound songs vs ugābhōga / vacana / padya.
+- **Composers missing from the source:** 352 listed works had no composer. Each was searched (karnatik.com, rasikas.org,
+  Wikipedia, shlokam.org, and the composer credits on its own YouTube recordings); 157 are now credited (high: a reference
+  page names the work; med: one weaker source such as a recording's composer credit). An independent re-check of 30
+  confirmed 21, found 9 partly supported (role or title wording) and none contradicted. The rest stay “Unattributed in source”.
 - **Spelling house style (IAST):** ṃ before a consonant, m before a vowel and at the end; homorganic nasals inside words
   (nanda, śaṅkara); avagraha as `'`. Dīkṣitar titles follow the Samāhāram.
 

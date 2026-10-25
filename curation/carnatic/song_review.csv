@@ -894,7 +894,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 2776,Shri Gomathi Unaiye.json,Shri Gomathi Unaiye,,Tamil,high,,,
 2777,Shri Ganapatiye.json,Shri Ganapatiye,Tamil,Tamil,high,,,
 2778,Shreesha Putraaya.json,Shreesha Putraaya,Sanskrit,Sanskrit,high,śrīśa putrāya,,
-2779,Shivakantha Shambo.json,Shivakantha Shambo,,Sanskrit,low,śivakānta śambho,,Vocatives only
+2779,Shivakantha Shambo.json,Shivakantha Shambo,,Sanskrit,low,śivākānta śambho,,"Vocatives only · research Oct 2026: Vedasāra Śiva stotra, verse 4"
 2780,Shiva Shiva Bhava.json,Shiva Shiva Bhava,Sanskrit,Sanskrit,high,śiva śiva bhava,,
 2781,Saravanabhava Sharanam.json,Saravanabhava Sharanam,,Tamil,high,,,
 2782,Sharanu Sakaloddhara.json,Sharanu Sakaloddhara,,Kannada,high,,śaraṇu sakalōddhāra,
@@ -996,7 +996,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 3001,Gaayiye Ganapati.json,Gaayiye Ganapati,Hindi,Hindi,high,,,
 3011,Enge Enge Ena.json,Enge Enge Ena,Tamil,Tamil,high,,,
 3015,Dooru Maduva Rene.json,Dooru Maduva Rene,Kannada,Kannada,high,,dūru māḍuvarēne,
-3017,Dhava Vibho.json,Dhava Vibho,,Sanskrit,low,dhava vibho,,
+3017,Dhava Vibho.json,Dhava Vibho,,Marathi,low,dhava vibho,,"research Oct 2026: old Marathi (T. M. Krishna upload), not Sanskrit"
 3020,Devi Sri Tulasamma.json,Devi Sri Tulasamma,Telugu,Telugu,high,,,
 3022,Devaki Thanaya.json,Devaki Thanaya,Sanskrit,Sanskrit,high,devakī tanaya,,
 3024,Deva Devam Kwetitam.json,Deva Devam Kwetitam,,Sanskrit,high,devadevaṃ kveti tam,,
@@ -1015,7 +1015,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 3056,Ambika Naa Ninna Nambide.json,Ambika Naa Ninna Nambide,Kannada,Kannada,high,,aṃbiga nā ninna naṃbide,
 3059,Amba Gowri.json,Amba Gowri,,Malayalam,med,,,"Sanskrit vocatives, Malayalam verb phrase (āśrayamillā nī tanne)"
 3060,Akhiladeva.json,Akhiladeva,Sanskrit,Sanskrit,high,akhila devanutapade,,
-3061,Ajitha Hare.json,Ajitha Hare,,Sanskrit,low,ajitā hare,,
+3061,Ajitha Hare.json,Ajitha Hare,,Sanskrit,low,ajita hare jaya,,research Oct 2026: Kathakaḷi padam (Kucelavṛttam)
 3066,Aara Amude.json,Aara Amude,,Tamil,high,,,Tāyumāṉavar Tamil verse
 3069,Aacharavillada Naalige.json,Aacharavillada Naalige,Kannada,Kannada,high,,ācāravillada nālige,
 3075,Virperu Vizhavum.json,Virperu Vizhavum,,Tamil,high,,,
@@ -1496,7 +1496,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 4024,Kerala Vaibhavam.json,Kerala Vaibhavam,Sanskrit,Sanskrit,high,kerala vaibhavam,,
 4025,Kayau Shri Gowri.json,Kayau Shri Gowri,Sanskrit,Kannada,med,,kāyau śrī gauri,"Mysore anthem; Kannada verb kāyau, Sanskrit vocatives"
 4026,Katyayani Devi.json,Katyayani Devi,,Malayalam,high,,,"Malayalam lyric (kāttīṭaṇam, paḷḷiyarayil)"
-4027,Kasturi Rangayya.json,Kasturi Rangayya,,Kannada,low,,kastūri raṃgayya,Kannada or Telugu
+4027,Kasturi Rangayya.json,Kasturi Rangayya,,Telugu,low,,kastūri raṃgayya,Kannada or Telugu · research Oct 2026: full title 'kastūri raṅgayya karuṇiñcave' (Telugu)
 4029,Karuninchara Karunanidhe.json,Karuninchara Karunanidhe,Sanskrit,Telugu,high,,,Telugu kṛti; src_lang says Sanskrit
 4032,Karunananda.json,Karunananda,Sanskrit,Sanskrit,high,karuṇānanda cature,,
 4034,Karunakari.json,Karunakari,,Sanskrit,low,karuṇākari kapāli,,
@@ -1522,7 +1522,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 4070,Kailasavasane Shree.json,Kailasavasane Shree,,Tamil,med,,,
 4073,Kadambavana Vasini.json,Kadambavana Vasini,Sanskrit,Sanskrit,high,kadamba vanavāsini,,
 4078,Jwalatkoti.json,Jwalatkoti,,Sanskrit,med,jvalatkoṭi,,"Likely stotra verse; jvalat (blazing), not jvālat"
-4080,Jayathu Jayathu Manthram.json,Jayathu Jayathu Manthram,,Sanskrit,high,jayatu jayatu mantram,,"śloka on Rāma-nāma, not a kṛti"
+4080,Jayathu Jayathu Manthram.json,Jayathu Jayathu Manthram,,Sanskrit,high,jayatu jayatu mantram,,"research Oct 2026: cūrṇikā from Tyāgarāja’s Prahlāda Bhakti Vijayam, set as a śloka"
 4081,Jayathu Gokula Vaasa.json,Jayathu Gokula Vaasa,Kannada,Kannada,high,,jayatu gōkulavāsa,
 4083,Jatadhara Shankara.json,Jatadhara Shankara,Sanskrit,Sanskrit,high,jaṭādhara śaṅkara,,
 4084,Jashakethana.json,Jashakethana,Sanskrit,Sanskrit,high,jhaṣaketana pitaram,,
@@ -2457,7 +2457,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 6065,Sarasiruhakshi.json,Sarasiruhakshi,Sanskrit,Kannada,high,,sarasīruhākṣi tāyē,"Kannada (paripālisau), not Sanskrit"
 6068,Saraswathi Nanna.json,Saraswathi Nanna,Kannada,Kannada,high,,sarasvati nanna,
 6070,Satatamu Ninne.json,Satatamu Ninne,,Telugu,med,,,
-6073,Sathyam Gnanam.json,Sathyam Gnanam,,Sanskrit,high,satyaṃ jñānam,,Taittirīya Upaniṣad phrase
+6073,Sathyam Gnanam.json,Sathyam Gnanam,,Tamil,high,satyaṃ jñānam,,Taittirīya Upaniṣad phrase · research Oct 2026: Tamil devotional song
 6081,Anjani Mainda.json,Anjani Mainda,,Unsure,low,,,
 6089,Sri Ramachandra Sritha.json,Sri Ramachandra Sritha,,Sanskrit,high,śrī rāmacandraḥ śrita,,"Sanskrit maṅgala śloka, not a gītam; likely misattributed"
 6090,Shri Shivapoojya.json,Shri Shivapoojya,,Sanskrit,med,śrī śivapūjya,,
@@ -2471,7 +2471,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 6110,Sri Nilayam Bhaje.json,Sri Nilayam Bhaje,,Sanskrit,high,śrī nilayaṃ bhaje,,No lyric
 6113,Sri Raghavendra Guru.json,Sri Raghavendra Guru,,Unsure,low,,,Name only; language not judgeable from title
 6114,Sri Raja Rajeshwari.json,Sri Raja Rajeshwari,,Sanskrit,low,śrī rāja rājeśvari,,
-6116,Gopanga Sowndarya.json,Gopanga Sowndarya,,Sanskrit,low,gopāṅga saundarya,,
+6116,Gopanga Sowndarya.json,Gopanga Sowndarya,,Tamil,low,gopāṅga saundarya,,research Oct 2026: full title 'gopāṅga saundarya gopālane' (Tamil)
 6117,Sri Rajarajeswari.json,Sri Rajarajeswari,,Sanskrit,med,śrī rājarājeśvari jagadīśvari,,
 6118,Sri Rajarajeswarim.json,Sri Rajarajeswarim,,Sanskrit,med,śrī rājarājeśvarīm,,
 6119,Sri Rama Naumi.json,Sri Rama Naumi,Sanskrit,Sanskrit,high,śrī rāma naumi,,
@@ -2525,7 +2525,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 6410,Mattru Pattrena.json,Mattru Pattrena,,Tamil,high,,,
 6412,Bhajeham Sri Parashakti.json,Bhajeham Sri Parashakti,Sanskrit,Sanskrit,high,bhaje'haṃ śrī parāśakti,,
 6413,Dwaravathi Pathe.json,Dwaravathi Pathe,Sanskrit,Sanskrit,med,dvāravatī pate,,
-6414,Gopala Govinda.json,Gopala Govinda,,Sanskrit,low,gopāla govinda,,
+6414,Gopala Govinda.json,Gopala Govinda,,Hindi,low,gopāla govinda,,research Oct 2026: Mīrābāī bhajan
 6415,Thiruvadirai Dinam.json,Thiruvadirai Dinam,,Tamil,high,,,
 6416,Vanaspati Tamaku.json,Vanaspati Tamaku,,Telugu,med,,,
 6417,Nenaru Leni.json,Nenaru Leni,,Telugu,high,,,
@@ -2680,7 +2680,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 6681,Navamanigalile.json,Navamanigalile,Tamil,Tamil,high,,,
 6684,Rangabarane.json,Rangabarane,,Kannada,med,,raṃga bāranē,2nd pass: noun and verb printed separately
 6685,Seshamsa Sambhutham.json,Seshamsa Sambhutham,,Sanskrit,med,śeṣāṃśa sambhūtam,,
-6686,Kamasundarangi.json,Kamasundarangi,,Sanskrit,low,kāmasundarāṅgi,,title only; song language unverified
+6686,Kamasundarangi.json,Kamasundarangi,,Tamil,low,kāmasundarāṅgi,,title only; song language unverified · research Oct 2026: described as a Tamil song
 6688,Narasimhame.json,Narasimhame,,Tamil,med,,,
 6689,Viswasamune Swasaga Talachi.json,Viswasamune Swasaga Talachi,,Telugu,high,,,
 6690,Dakshinamurthiye Adi Guruve.json,Dakshinamurthiye Adi Guruve,Tamil,Tamil,high,,,
@@ -2771,7 +2771,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 6788,Aadi Purusha.json,Aadi Purusha,,Sanskrit,med,ādi puruṣa,,Sanskrit kīrtana of Annamācārya
 6789,Kundruthoradum.json,Kundruthoradum,,Tamil,high,,,
 6790,Madhava Bhuthava.json,Madhava Bhuthava,,Telugu,high,,,
-6791,Atimridutara.json,Atimridutara,,Sanskrit,low,atimṛdutara,,
+6791,Atimridutara.json,Atimridutara,,Telugu,low,atimṛdutara,,research Oct 2026: full title 'atimṛdutara satyabhāṣaṇuḍiki' (Telugu)
 6792,Sri Vaikkathappane.json,Sri Vaikkathappane,,Malayalam,med,,,
 6793,Ganapathi Enna Paliso.json,Ganapathi Enna Paliso,,Kannada,high,,gaṇapati enna pālisō,
 6794,Azhiyum Thirayum.json,Azhiyum Thirayum,,Malayalam,high,,,Verse of Narayana Guru's Daiva Daśakam
@@ -2790,7 +2790,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 6810,Kanivolum Kamaneeya.json,Kanivolum Kamaneeya,,Malayalam,med,,,
 6811,Nodalagade.json,Nodalagade,,Kannada,high,,nōḍalāgadē,
 6812,Palaya Sri Gurupavana.json,Palaya Sri Gurupavana,,Sanskrit,med,pālaya śrī gurupavana,,
-6813,Patitoddhaarini Gange.json,Patitoddhaarini Gange,,Sanskrit,low,patitoddhāriṇi gaṅge,,
+6813,Patitoddhaarini Gange.json,Patitoddhaarini Gange,,Bengali,low,patitoddhāriṇi gaṅge,,"research Oct 2026: Bengali song by Dwijendralal Ray, not Sanskrit"
 6815,Sri Dakshinamurthim Bhajare.json,Sri Dakshinamurthim Bhajare,,Sanskrit,high,śrī dakṣiṇāmūrtiṃ bhajare,,
 6816,Sri Hare Syanandurapuresha.json,Sri Hare Syanandurapuresha,,Sanskrit,med,śrī hare syānandūrapureśā,,
 6817,Thirukkumaranaai Avadharithaar.json,Thirukkumaranaai Avadharithaar,,Tamil,high,,,
@@ -2828,7 +2828,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 6857,Suzhalum Chakkaram.json,Suzhalum Chakkaram,,Tamil,high,,,
 6858,Arul Thavazhum.json,Arul Thavazhum,,Tamil,high,,,
 6860,Sakhi He Kesimathanam.json,Sakhi He Kesimathanam,Sanskrit,Sanskrit,high,nibhṛta nikuñjagṛham,,
-6862,Ayikali Kalmasha Nasani.json,Ayikali Kalmasha Nasani,,Sanskrit,low,ayikali kalmaṣa,,
+6862,Ayikali Kalmasha Nasani.json,Ayikali Kalmasha Nasani,,Sanskrit,low,ayikali kalmaṣa,,research Oct 2026: a verse of the Aṣṭalakṣmī stotra
 6863,Ayyane Vaa Appane Vaa.json,Ayyane Vaa Appane Vaa,,Tamil,high,,,
 6864,Bhaama Ramanana Deepalakshmi.json,Bhaama Ramanana Deepalakshmi,,Kannada,med,,bhāmā ramaṇana,
 6865,Bhaja Sastaram.json,Bhaja Sastaram,,Sanskrit,med,bhaja śāstāram,,
@@ -3271,7 +3271,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 7519,Ishta Siddhi Vinayaka.json,Ishta Siddhi Vinayaka,,Sanskrit,med,iṣṭa siddhi vināyakā,,vocatives only in lyric; language not certain
 7521,Acharyam Ashraye.json,Acharyam Ashraye,,Sanskrit,high,ācāryam āśraye,,
 7522,Dariya Toro Gopala.json,Dariya Toro Gopala,Kannada,Kannada,high,,dāriya tōrō gōpālā,2nd pass: lyric has long vocative gōpālā
-7524,Pooray Mam Kamam.json,Pooray Mam Kamam,,Sanskrit,high,pūraya mama kāmam,,Dikshitar kṛti; translit 'mAm' should be 'mama'
+7524,Pooray Mam Kamam.json,Pooray Mam Kamam,,Sanskrit,high,pūraya mama kāmam,,"research Oct 2026: taraṅga from Nārāyaṇa Tīrtha’s Kṛṣṇa Līlā Taraṅgiṇī, not Dīkṣitar"
 7525,Vandaduvum Ponaduvum.json,Vandaduvum Ponaduvum,Sanskrit,Tamil,high,,,Tamil (vandaduvum pōnaduvum); not Sanskrit
 7527,Vanamali Vinayadhi.json,Vanamali Vinayadhi,,Unsure,low,,,
 7528,Anbane Padam Gathi.json,Anbane Padam Gathi,,Tamil,high,,,
@@ -3288,7 +3288,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 7542,Kamakshi Pahimam Sri.json,Kamakshi Pahimam Sri,Sanskrit,Sanskrit,med,kāmākṣi pāhi māṃ śrī,,
 7543,Samagana Sudharasa.json,Samagana Sudharasa,,Unsure,low,,,Vocatives only; language not judgeable from title
 7544,Padame Gati Guru.json,Padame Gati Guru,,Telugu,low,,,
-7545,Haranumaagi Hariumaagi.json,Haranumaagi Hariumaagi,,Kannada,med,,haranumāgi hariyumāgi,
+7545,Haranumaagi Hariumaagi.json,Haranumaagi Hariumaagi,,Tamil,med,,haranumāgi hariyumāgi,research Oct 2026: Tamil kāvaḍi cindu
 7548,Bhajare Lokagurum.json,Bhajare Lokagurum,Sanskrit,Sanskrit,high,bhajare lokagurum,,
 7549,Malleshwara Puradhisham.json,Malleshwara Puradhisham,,Sanskrit,med,malleśvara purādhīśam,,
 7550,Meluko Sri Perundevi.json,Meluko Sri Perundevi,,Telugu,high,,,
@@ -3524,7 +3524,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 7881,Shrimad Kakarla.json,Shrimad Kakarla,Sanskrit,Sanskrit,high,śrīmat kākarla,,"Tyāgarāja maṅgala ślokas, not a kṛti"
 7882,Lali Yugavayya.json,Lali Yugavayya,,Unsure,low,,,
 7885,Sarasa Nayana Sarasa.json,Sarasa Nayana Sarasa,,Unsure,low,,,"Sanskrit vocatives only; no lyric, may be Telugu"
-7886,Mangalam Vara Rishya.json,Mangalam Vara Rishya,Sanskrit,Sanskrit,med,maṅgalaṃ vara riśya,,'riśya' unclear; left as printed
+7886,Mangalam Vara Rishya.json,Mangalam Vara Rishya,Sanskrit,Sanskrit,med,maṅgalaṃ vara ṛṣyaśṛṅga,,'riśya' unclear; left as printed · research Oct 2026: 'riśya' is ṛṣya(śṛṅga)
 7887,Varuvar Azhaithuvadi.json,Varuvar Azhaithuvadi,,Tamil,high,,,
 7889,Sundari Ratnamaya.json,Sundari Ratnamaya,,Sanskrit,low,sundari ratnamayā,,
 7890,Indina Dinave.json,Indina Dinave,,Kannada,high,,iṃdina dinavē,
@@ -3950,7 +3950,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 8523,Krishna Kaho.json,Krishna Kaho,,Hindi,high,,,
 8525,Iva Namma Kanna.json,Iva Namma Kanna,,Kannada,med,,iva namma kaṇṇā,
 8526,Hari Sarvatmakudu.json,Hari Sarvatmakudu,,Telugu,high,,,
-8527,Hey Gopalaka.json,Hey Gopalaka,,Sanskrit,low,he gopālaka,,title only; song language unverified
+8527,Hey Gopalaka.json,Hey Gopalaka,,Sanskrit,low,he gopālaka,,title only; song language unverified · research Oct 2026: śloka from the Mukundamālā
 8529,Anandam Anandam.json,Anandam Anandam,,Unsure,low,,,wedding song
 8530,Raja Rajeshwari.json,Raja Rajeshwari,Sanskrit,Sanskrit,high,rāja rājeśvari,,
 8531,Raja Rajeswari.json,Raja Rajeswari,,Sanskrit,med,rāja rājeśvari,,
@@ -4005,7 +4005,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 8601,Kandena Ranganathana.json,Kandena Ranganathana,,Kannada,high,,kaṃḍe nā raṃganāthana,2nd pass: split kaṃḍe nā ('I saw')
 8602,Sri Rama Ni Namamu.json,Sri Rama Ni Namamu,,Telugu,high,,,
 8603,Sri Rajarajeshwari Awathu.json,Sri Rajarajeshwari Awathu,Sanskrit,Sanskrit,high,śrī rājarājeśvarī avatu,,
-8605,Kalyani Theeravasa.json,Kalyani Theeravasa,,Sanskrit,low,kalyāṇī tīravāsa,,title only; song language unverified
+8605,Kalyani Theeravasa.json,Kalyani Theeravasa,,Kannada,low,kalyāṇī tīravāsa,kalyāṇi tīravāsa,title only; song language unverified · research Oct 2026: Kannada devotional song (lyrics H. L. Sheshachandra)
 8610,Parvati Nayaka.json,Parvati Nayaka,Sanskrit,Sanskrit,low,pārvatī nāyaka,,Vocative only; kept per source
 8611,Navalokanayike.json,Navalokanayike,,Sanskrit,low,navalokanāyike,,
 8612,Nee Mayam Seidhal.json,Nee Mayam Seidhal,,Tamil,high,,,
@@ -4118,7 +4118,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 8794,Ketkadha Pattellam.json,Ketkadha Pattellam,,Tamil,high,,,
 8796,Vandanamu Jesedara.json,Vandanamu Jesedara,,Telugu,high,,,
 8799,Dattatreyam Sadbhakarta.json,Dattatreyam Sadbhakarta,Sanskrit,Sanskrit,high,dattātreyaṃ sadbhaktārta,,
-8801,Sada Bala Rupapi.json,Sada Bala Rupapi,,Sanskrit,high,sadā bāla rūpāpi,,From Gaṇeśa Bhujaṅga stotra (Śaṅkara)
+8801,Sada Bala Rupapi.json,Sada Bala Rupapi,,Sanskrit,high,sadā bāla rūpāpi,,"research Oct 2026: Subrahmaṇya Bhujaṅgam, verse 1 (Śaṅkara)"
 8805,Sri Ramachandram Bhajami.json,Sri Ramachandram Bhajami,Tamil,Sanskrit,high,śrī rāmacandraṃ bhajāmi,,"Sanskrit, not Tamil"
 8808,Saraya Saraya.json,Saraya Saraya,,Sanskrit,low,sāraya sāraya,,no lyric
 8809,Sarasa Dalanayana.json,Sarasa Dalanayana,,Sanskrit,low,sārasa dalanayana,,
@@ -4256,7 +4256,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 9072,Chakshu Sravana Vibho.json,Chakshu Sravana Vibho,,Sanskrit,med,cakṣuḥ śravaṇa vibho,,Corrected on independent check
 9074,Senkamala Valli.json,Senkamala Valli,,Tamil,high,,,
 9075,Saraswati Namasthubhyam.json,Saraswati Namasthubhyam,,Sanskrit,high,sarasvati namastubhyam,,Opening of the well-known Sarasvatī śloka
-9076,Vakdevi Saaraswathi.json,Vakdevi Saaraswathi,,Sanskrit,low,vāgdevi sarasvati,,
+9076,Vakdevi Saaraswathi.json,Vakdevi Saaraswathi,,Tamil,low,vāgdevi sarasvati,,research Oct 2026: Tamil song (lyricist Sattur Karpagam)
 9077,Varuga Varuga Saravanabhava.json,Varuga Varuga Saravanabhava,,Tamil,high,,,
 9078,Caranava Toro.json,Caranava Toro,,Kannada,high,,caraṇava tōrō,
 9079,Muraliya Nadava.json,Muraliya Nadava,,Kannada,high,,muraḷiya nādava,
@@ -4335,7 +4335,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 9237,Rakendu Vadana.json,Rakendu Vadana,,Sanskrit,low,rākendu vadana,,No lyric; may be Telugu
 9238,Ramam Bhaja Manasa.json,Ramam Bhaja Manasa,,Sanskrit,med,rāmaṃ bhaja mānasa,,
 9241,Aguner Paroshmoni.json,Aguner Paroshmoni,,Other,high,,,Bengali Rabindrasangeet
-9242,Nagna Vipina.json,Nagna Vipina,,Sanskrit,low,nagna vipina,,title only; song language unverified
+9242,Nagna Vipina.json,Nagna Vipina,,Kannada,low,nagna vipina,nagna vipina,title only; song language unverified · research Oct 2026: Kannada composition of Pu. Ti. Narasimhachar
 9244,Hanumanta Balavanta.json,Hanumanta Balavanta,,Unsure,low,,,Kannada or Marathi
 9245,Sada Ninne.json,Sada Ninne,,Telugu,med,,,
 9248,Kathamaham Varnayami.json,Kathamaham Varnayami,,Sanskrit,high,kathamahaṃ varṇayāmi,,
@@ -4540,7 +4540,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 9602,Pranavashakthi Peetha.json,Pranavashakthi Peetha,,Unsure,low,,,
 9604,Shiva Shanmukha.json,Shiva Shanmukha,,Unsure,low,,,
 9605,Laali Sri Hayavadana.json,Laali Sri Hayavadana,Kannada,Kannada,high,,lāli śrī hayavadana,
-9607,Guruvige Tanuvannu.json,Guruvige Tanuvannu,Kannada,Kannada,high,,guruvige tanuvannu,
+9607,Guruvige Tanuvannu.json,Guruvige Tanuvannu,Kannada,Kannada,high,,guruvige tanuvannu,research Oct 2026: vacana by Puttaraj Gawai
 9612,Pranamami Ganeshwaram.json,Pranamami Ganeshwaram,,Sanskrit,high,praṇamāmi gaṇeśvaram,,
 9613,Sripathi Srinarayana.json,Sripathi Srinarayana,,Unsure,low,,,Vocatives only; language not judgeable from title
 9614,Gurudeva Gurudeva.json,Gurudeva Gurudeva,,Unsure,low,,,vocatives only; language unclear
@@ -4643,7 +4643,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 9791,Ganapathiye Neeye.json,Ganapathiye Neeye,Sanskrit,Tamil,high,,,"Tamil (nīyē, en manadil), not Sanskrit"
 9792,Srinivasa Nin Sevadi.json,Srinivasa Nin Sevadi,,Tamil,high,,,
 9793,Sundara Kannan.json,Sundara Kannan,,Tamil,high,,,
-9797,Charanaraja Mahima.json,Charanaraja Mahima,Sanskrit,Sanskrit,low,caraṇaraja mahima,,raja for rajas suggests Hindi; check
+9797,Charanaraja Mahima.json,Charanaraja Mahima,Sanskrit,Hindi,low,caraṇaraja mahima,,raja for rajas suggests Hindi; check · research Oct 2026: Mīrābāī bhajan
 9802,Karpaga Vinayagane.json,Karpaga Vinayagane,,Tamil,high,,,
 9803,Jaya Vara Varnini.json,Jaya Vara Varnini,Sanskrit,Sanskrit,med,jaya vara varṇini,,
 9804,Sadananda Syama Sundara.json,Sadananda Syama Sundara,,Sanskrit,low,sadānanda śyāma sundara,,
@@ -4673,7 +4673,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 9850,Sarva Deva Rupini.json,Sarva Deva Rupini,,Unsure,low,,,Vocatives only; language not judgeable from title
 9851,Deepavalya Bhavatu.json,Deepavalya Bhavatu,,Sanskrit,low,dīpāvalya bhavatu,,dīpāvalya form unclear
 9853,Shantha Janarige.json,Shantha Janarige,Kannada,Kannada,high,,śāṃta janarige,Translit garbled ('sA<tha')
-9857,Dasarathathmaja.json,Dasarathathmaja,,Sanskrit,low,daśarathātmaja,,wedding song; may be Telugu
+9857,Dasarathathmaja.json,Dasarathathmaja,,Telugu,low,daśarathātmaja,,wedding song; may be Telugu · research Oct 2026: traditional Telugu wedding song (pelli pāṭa)
 9858,Nanugu Bettuko.json,Nanugu Bettuko,,Telugu,med,,,Telugu nalugu (wedding) song
 9859,Ra Ra Nalugida.json,Ra Ra Nalugida,,Telugu,high,,,Telugu nalugu (wedding) song
 9862,Baride Hoyitu.json,Baride Hoyitu,,Kannada,high,,baridē hōyitu,
@@ -4693,7 +4693,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 9888,Azhi Ezha Villum.json,Azhi Ezha Villum,,Tamil,high,,,
 9890,Nenjirukkum Varai.json,Nenjirukkum Varai,,Tamil,high,,,
 9891,Ramudu Lokabhi.json,Ramudu Lokabhi,,Telugu,high,,,
-9892,Pavana Madu.json,Pavana Madu,,Kannada,high,,pāvana māḍu,
+9892,Pavana Madu.json,Pavana Madu,,Kannada,high,,pāvana māḷpudu,research Oct 2026: karnatik.com title 'pāvana māḷpudu'
 9893,Siva Deeksha.json,Siva Deeksha,,Telugu,high,,,
 9894,Sriranga Prabhandha.json,Sriranga Prabhandha,,Unsure,low,,,
 9895,Supada Darshanam.json,Supada Darshanam,Sanskrit,Sanskrit,med,supāda darśanam,,
@@ -4907,7 +4907,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 10340,Cheliyane Netu.json,Cheliyane Netu,,Telugu,med,,,
 10341,Ekla Cholo.json,Ekla Cholo,,Other,high,,,"Bengali song (Tagore, Ekla chalo re)"
 10346,Punnagavana Tapaswini.json,Punnagavana Tapaswini,,Unsure,low,,,
-10348,Krishnam Vandhe.json,Krishnam Vandhe,,Sanskrit,med,kṛṣṇaṃ vande,,
+10348,Krishnam Vandhe.json,Krishnam Vandhe,,Sanskrit,med,kṛṣṇaṃ vande,,research Oct 2026: not a composition: harikathā discourse (Kṛṣṇaṃ vande jagadgurum)
 10350,Sri Varada Vinayaka.json,Sri Varada Vinayaka,Sanskrit,Sanskrit,low,śrī varada vināyaka,,Title only vocatives; Sanskrit tag unverified
 10352,Thelindu Thozhuden.json,Thelindu Thozhuden,,Tamil,high,,,
 10353,Rathnasabhapathinam.json,Rathnasabhapathinam,Sanskrit,Sanskrit,med,ratnasabhāpatinām,,Ending unclear; possibly instrumental ratnasabhāpatinā

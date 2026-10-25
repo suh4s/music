@@ -14,7 +14,7 @@
     "free_form_note_pattern": "vacana|vachana|ugābhōga|ugabhoga|ugābhoga|padya|śloka|sloka|verse",
     "haridasa_composers": ["Purandara Dasa", "Kanaka Dasa", "Vijaya Vittala Dasa", "Vadhiraja Theertha", "Shripadaraya", "Vyasaraya Thirtha",
                            "Jagannatha Dasa", "Gopala Dasa", "Prasanna Venkata Dasa", "Helavanakatte Giriyamma", "Mahipati Dasa",
-                           "Kamalesha Vittala Dasa", "Raghavendra Swaami"]
+                           "Kamalesha Vittala Dasa", "Raghavendra Swaami", "Ambabai", "Harapanahalli Bhimavva", "Gopalakrishna Vittala (aṅkita)"]
   },
   "exclude_note_pattern": "not a (song|composition)|concert|lecture|interview|instrumental|placeholder|not a title|section heading",
   "form_names": {

@@ -5,6 +5,7 @@ Inputs (nothing upstream is modified):
   Carnatic/song/*.json                    — the generated song records (title, info, lyrics, videos)
   curation/rules.json                     — classification rules (which forms are stotras, free-form, …)
   curation/carnatic/song_review.csv       — per-song language verdict and corrected IAST / ISO 15919 title
+  curation/carnatic/attributions.csv      — researched composers for works the source leaves unattributed (apply=yes rows used)
   curation/carnatic/dikshitar_samaharam.csv — Dīkṣitar works matched to P. P. Narayanaswami's 484-kṛti Samāhāram
   curation/carnatic/stotra_seed.csv       — a few well-known stotras the repo has no recording of
 
@@ -87,6 +88,10 @@ def main():
     samaharam = read_csv(os.path.join(CUR, 'carnatic', 'dikshitar_samaharam.csv'))
     res_path = os.path.join(CUR, 'carnatic', 'flag_resolutions.csv')
     resolutions = {r['song_file']: r for r in read_csv(res_path)} if os.path.exists(res_path) else {}
+    att_path = os.path.join(CUR, 'carnatic', 'attributions.csv')
+    att_rows = read_csv(att_path) if os.path.exists(att_path) else []
+    attrib = {r['song_file']: r for r in att_rows if r['apply'] == 'yes' and r['composer']}   # researched composers (high/med)
+    set_form = {r['song_file']: r['set_form'] for r in att_rows if r['set_form']}
     SAN = set(rules['sanskrit_language_tags'])
     FORM, SERIES = rules['form_names'], rules['series_names']
     excl = re.compile(rules['exclude_note_pattern'], re.I)
@@ -122,10 +127,14 @@ def main():
         lang, note = v['language'], v['note'] or ''
         if g['composer'] == 'Muthuswami Dikshitar' and not v['title_iast']:
             continue
-        base = dict(song_file=fn, song_id=g['id'], source_title=g['title'], composer=composer(g['composer']), raga=clean_raga(g['raga']),
+        comp = composer(g['composer'])
+        flags = []
+        if comp == 'Unattributed in source' and fn in attrib:
+            comp = attrib[fn]['composer']
+            flags.append(f"Composer from research ({attrib[fn]['confidence']})")
+        base = dict(song_file=fn, song_id=g['id'], source_title=g['title'], composer=comp, raga=clean_raga(g['raga']),
                     tala=g['tala'] or '', deity=g['deity'] or '', recordings=g['videos'], source_language=g['language'] or '',
                     confidence=v['confidence'], note=note, source=g['ref'])
-        flags = []
         if v['confidence'] == 'low':
             flags.append('Low confidence (title only)')
         if lang == 'Sanskrit' or (lang == 'Unsure' and rs['include_unsure_if_source_tag_is_sanskrit'] and g['language'] in SAN):
@@ -133,13 +142,14 @@ def main():
                 continue
             if g['language'] not in SAN:
                 flags.append(f"Newly identified as Sanskrit (source: {g['language'] or 'untagged'})")
-            is_stotra = (g['type'] in rs['stotra_types'] or g['composer'] in rs['stotra_authors'] or bool(stotra_note.search(note))
+            is_stotra = (g['type'] in rs['stotra_types'] or comp in rs['stotra_authors'] or bool(stotra_note.search(note))
                          or (g['composer'] == 'Appayya Dikshitar' and g['type'] != 'Geetham'))
             form = FORM.get(g['type']) or ('Kṛti' if g['type'] in SERIES else (g['type'] or 'Kṛti'))   # series types are kṛtis
-            if g['composer'] in rs['taranga_composers'] and g['type'] == 'Krithi':
+            if comp in rs['taranga_composers'] and g['type'] == 'Krithi':
                 form = 'Taraṅga'
             if is_stotra and g['type'] == 'Krithi':
                 form = 'Stotra (set as kṛti)'
+            form = set_form.get(fn) or form
             row = dict(base, title_iast=v['title_iast'], form=form, series=SERIES.get(g['type'], ''), kshetra=g['kshetra'] or '',
                        basis='Reviewed', check='; '.join(flags))
             (stotras if is_stotra else composed).append(row)
@@ -147,9 +157,10 @@ def main():
             if g['language'] != 'Kannada':
                 flags.append(f"Newly identified as Kannada (source: {g['language'] or 'untagged'})")
             free = g['type'] in rk['free_form_types'] or bool(free_note.search(note))
-            c = g['composer'] or ''
+            c = comp
             trad = 'Haridāsa' if c in rk['haridasa_composers'] or c.endswith('Dasa') else ''
-            row = dict(base, title_iso=v['title_iso'], tradition=trad, form=FORM.get(g['type'], g['type'] or 'Kṛti / Dēvaranāma'), check='; '.join(flags))
+            form = set_form.get(fn) or FORM.get(g['type'], g['type'] or 'Kṛti / Dēvaranāma')
+            row = dict(base, title_iso=v['title_iso'], tradition=trad, form=form, check='; '.join(flags))
             (kannada_free if free else kannada_comp).append(row)
     # 3. Well-known concert stotras the repo has no recording of
     seed_path = os.path.join(CUR, 'carnatic', 'stotra_seed.csv')
