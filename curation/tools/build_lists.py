@@ -135,7 +135,7 @@ def main():
                 flags.append(f"Newly identified as Sanskrit (source: {g['language'] or 'untagged'})")
             is_stotra = (g['type'] in rs['stotra_types'] or g['composer'] in rs['stotra_authors'] or bool(stotra_note.search(note))
                          or (g['composer'] == 'Appayya Dikshitar' and g['type'] != 'Geetham'))
-            form = FORM.get(g['type'], g['type'] or 'Kṛti')
+            form = FORM.get(g['type']) or ('Kṛti' if g['type'] in SERIES else (g['type'] or 'Kṛti'))   # series types are kṛtis
             if g['composer'] in rs['taranga_composers'] and g['type'] == 'Krithi':
                 form = 'Taraṅga'
             if is_stotra and g['type'] == 'Krithi':
