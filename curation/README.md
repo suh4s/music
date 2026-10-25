@@ -16,7 +16,7 @@ Each curated judgement is keyed to a song file (`Carnatic/song/<name>.json`) and
 | `carnatic/lists/*.csv` | **Generated** by `tools/build_lists.py`: Sanskrit composed works, Sanskrit stotras & ślokas, Kannada composed works, Kannada free-form (ugābhōga, vacana, padya) |
 | `carnatic/bmk_compositions.csv` | M. Balamuralikrishna's compositions (repo + published sources), with mēḷa numbers for the Janaka Kṛti Mañjarī |
 | `carnatic/bmk_recordings_index.csv` | Every item on *Music for Posterity : Sreenivasa Murthy* and *musiquebox* where BMK performs or the piece is his, with time-stamped links |
-| `carnatic/aarati_{kannada,sanskrit}.csv` | Āratī, maṅgaḷa and śōbhāne songs for deities, people and occasions, with rāga, recordings and (public-domain only) lyrics |
+| `carnatic/aarati_{kannada,sanskrit}.csv` | Āratī, maṅgaḷa and śōbhāne songs for deities, people and occasions, with rāga and recordings; lyrics in Kannada script, Devanagari and IAST where the text may be republished (repo and Wikisource texts), a link otherwise |
 | `tools/build_lists.py` | Rebuilds `carnatic/lists/` from the song files + overlay |
 | `tools/apply_language_fixes.py` | **Opt-in**: writes reviewed languages back into the song files' `info` in upstream's own format (dry run by default) |
 
