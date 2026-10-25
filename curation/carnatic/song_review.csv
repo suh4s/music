@@ -936,7 +936,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 2862,Pahiprabho Ganaraja.json,Pahiprabho Ganaraja,Sanskrit,Sanskrit,high,pāhi prabho,,
 2864,Pahi Pahi Sharade.json,Pahi Pahi Sharade,Sanskrit,Sanskrit,high,pāhi pāhi śārade,,
 2869,Paahisadapadma.json,Paahisadapadma,Sanskrit,Sanskrit,high,pāhi sadā padmanābha,,
-2870,Omithi Brahma.json,Omithi Brahma,,Sanskrit,high,omiti brahma,,
+2870,Omithi Brahma.json,Omithi Brahma,,Sanskrit,high,omiti brahma,,"research Oct 2026: Upaniṣad verse (Taittirīya 1.8), a recited text set to music"
 2874,Niramaye Niranjane.json,Niramaye Niranjane,Sanskrit,Kannada,med,,nirāmayē niraṃjanē,"Kannada (pālisammā), not Sanskrit"
 2875,Ninu Vidisi.json,Ninu Vidisi,,Telugu,high,,,
 2878,Nimma Bhagya Dhoddadho.json,Nimma Bhagya Dhoddadho,Kannada,Kannada,high,,nimma bhāgya doḍḍadō,
@@ -1385,7 +1385,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 3806,Rajarajesvari Girirajakumari.json,Rajarajesvari Girirajakumari,Sanskrit,Sanskrit,med,rājarājeśvari girirāja kumāri,,
 3808,Raghavendra Guru Rayara.json,Raghavendra Guru Rayara,Kannada,Kannada,high,,rāghavēṃdra guru rāyara,
 3809,Radha Prana.json,Radha Prana,,Sanskrit,low,rādhā prāṇa,,"uninflected stems, no sandhi; may be a Hindi bhajan"
-3811,Purandhara Vittala Punya Swaroopa.json,Purandhara Vittala Punya Swaroopa,,Kannada,low,,puraṃdara viṭṭhala puṇya,
+3811,Purandhara Vittala Punya Swaroopa.json,Purandhara Vittala Punya Swaroopa,,Tamil,low,,puraṃdara viṭṭhala puṇya,research Oct 2026: D. Pattammal's Tamil 'purandara viṭhalan' (karnatik.com)
 3812,Purandara Vittalana.json,Purandara Vittalana,,Kannada,high,,puraṃdara viṭṭhalana,
 3813,Pranava Swarupa.json,Pranava Swarupa,,Unsure,low,,,Vocatives only; language not judgeable from title
 3814,Pranava Nilai.json,Pranava Nilai,,Tamil,high,,,
@@ -2539,7 +2539,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 6436,Kadiravan Koodiya.json,Kadiravan Koodiya,,Tamil,high,,,
 6440,Pannen Unakkana Pujai.json,Pannen Unakkana Pujai,,Tamil,high,,,
 6443,Nikila Lokanayaki.json,Nikila Lokanayaki,,Sanskrit,high,nikhila loka nāyaki,,
-6444,Ananda Roopa Hare.json,Ananda Roopa Hare,,Sanskrit,low,ānanda rūpa hare,,
+6444,Ananda Roopa Hare.json,Ananda Roopa Hare,,Malayalam,low,ānanda rūpa hare,,research Oct 2026: Malayalam song of Kuṭṭi Kuñju Taṅkacci (Wikipedia song table)
 6469,Thunilum Thurumbilum.json,Thunilum Thurumbilum,,Tamil,high,,,
 6488,Inta Paranmukhamela.json,Inta Paranmukhamela,Sanskrit,Telugu,high,,,"Telugu (inta, ēla, vinarādā), not Sanskrit"
 6492,Mei Thozhavu Melu.json,Mei Thozhavu Melu,,Unsure,low,,,
@@ -3111,7 +3111,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 7278,Neenolidade Kallella.json,Neenolidade Kallella,Kannada,Kannada,high,,nīnolidaḍe kallella,Vachana · Corrected on independent check
 7279,Akka Kelavva.json,Akka Kelavva,Kannada,Kannada,high,,akka kēḷavva,
 7280,Yettana Mamara.json,Yettana Mamara,Kannada,Kannada,high,,ettaṇa māmara,
-7281,kanda bhaktange.json,Kanda Bhaktange,Kannada,Kannada,high,,kaṃda bhaktaṃge,
+7281,kanda bhaktange.json,Kanda Bhaktange,Kannada,Kannada,high,,kaṃḍa bhaktaṃge,"research Oct 2026: Basavaṇṇa vacana 'kaṇḍa bhaktarige kaimugivātanē bhakta' (ಕಂಡ, not ಕಂದ)"
 7282,Swarnalatha Lalithe.json,Swarnalatha Lalithe,,Sanskrit,med,svarṇalatā lalite,,
 7284,Eeshwara Anugraha.json,Eeshwara Anugraha,,Unsure,low,,,
 7288,Sharanu Sharanu Gananatha.json,Sharanu Sharanu Gananatha,,Kannada,high,,śaraṇu śaraṇu gaṇanātha,
@@ -3517,7 +3517,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 7873,Paripahi Devamam Tharasa.json,Paripahi Devamam Tharasa,,Sanskrit,med,paripāhi devamām,,
 7875,Sathiyame Vendumaiye.json,Sathiyame Vendumaiye,,Tamil,high,,,
 7876,Dhanasutha.json,Dhanasutha,,Unsure,low,,,
-7877,Hari Hariyanu.json,Hari Hariyanu,,Kannada,high,,hari hariyanu,
+7877,Hari Hariyanu.json,Hari Hariyanu,,Telugu,high,,hari hariyanu,research Oct 2026: Tyāgarāja's Telugu 'hari hariyanukōvē' (Kāmavardhanī = Pantuvarāḷi; karnatik.com)
 7878,Undiyemi.json,Undiyemi,,Telugu,med,,,
 7879,Kanta Kulanu.json,Kanta Kulanu,,Unsure,low,,,
 7880,Karunajoodu Nannu.json,Karunajoodu Nannu,,Telugu,high,,,
@@ -3910,7 +3910,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 8453,Paripoorna Chandra.json,Paripoorna Chandra,Sanskrit,Telugu,high,,,"Telugu charaṇam lines (daivamu lēdani, nammitini); not Sanskrit"
 8454,Sankatahara Vinayaka.json,Sankatahara Vinayaka,,Sanskrit,med,saṅkaṭa hara vināyaka,,
 8455,Sharadambike Santatam.json,Sharadambike Santatam,,Sanskrit,low,śāradāmbike santatam,,
-8456,Anayu Karadare.json,Anayu Karadare,,Kannada,high,,āneyu karedare,
+8456,Anayu Karadare.json,Anayu Karadare,,Kannada,high,,āneyu karedare,"research Oct 2026: ugābhōga of Purandara Dāsa (purandaradasa.co.in), sung as a rāgamālikā"
 8458,Samidaya Joochi.json,Samidaya Joochi,,Telugu,high,,,
 8459,Arulavendum.json,Arulavendum,,Tamil,high,,,
 8460,Velundu Thunaiyai.json,Velundu Thunaiyai,,Tamil,high,,,
@@ -4645,7 +4645,7 @@ song_id,song_file,source_title,source_language,language,confidence,title_iast,ti
 9793,Sundara Kannan.json,Sundara Kannan,,Tamil,high,,,
 9797,Charanaraja Mahima.json,Charanaraja Mahima,Sanskrit,Hindi,low,caraṇaraja mahima,,raja for rajas suggests Hindi; check · research Oct 2026: Mīrābāī bhajan
 9802,Karpaga Vinayagane.json,Karpaga Vinayagane,,Tamil,high,,,
-9803,Jaya Vara Varnini.json,Jaya Vara Varnini,Sanskrit,Sanskrit,med,jaya vara varṇini,,
+9803,Jaya Vara Varnini.json,Jaya Vara Varnini,Sanskrit,Sanskrit,med,jaya vara varṇini,,research Oct 2026: Dhairyalakṣmī verse of the Aṣṭalakṣmī stotra (Mukkur Srinivasa Varadachariar)
 9804,Sadananda Syama Sundara.json,Sadananda Syama Sundara,,Sanskrit,low,sadānanda śyāma sundara,,
 9805,Aahudaadarahudenni.json,Aahudaadarahudenni,Kannada,Kannada,high,,āhudādarahudenni,
 9808,He Govinda He Gopala Uddara.json,He Govinda He Gopala Uddara,,Sanskrit,med,he govinda he gopāla uddhara,,

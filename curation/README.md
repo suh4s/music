@@ -31,10 +31,12 @@ Each curated judgement is keyed to a song file (`Carnatic/song/<name>.json`) and
 - **Sanskrit composed vs stotras:** composed = song forms whose setting the composer or sampradāya fixed (kṛti, varṇa,
   aṣṭapadī, taraṅga, navāvaraṇa…); stotras & ślokas = recited literature performers set to rāgas of their choice.
 - **Kannada composed vs free-form:** tāla-bound songs vs ugābhōga / vacana / padya.
-- **Composers missing from the source:** 352 listed works had no composer. Each was searched (karnatik.com, rasikas.org,
-  Wikipedia, shlokam.org, and the composer credits on its own YouTube recordings); 157 are now credited (high: a reference
-  page names the work; med: one weaker source such as a recording's composer credit). An independent re-check of 30
-  confirmed 21, found 9 partly supported (role or title wording) and none contradicted. The rest stay “Unattributed in source”.
+- **Composers missing from the source:** 352 listed works had no composer. Two research passes (Oct 2026): web search
+  and page fetches (rasikas.org, Wikipedia, shlokam.org, Haridāsa works lists, label track lists, the composer credits on
+  each work's own YouTube recordings), plus an offline match against karnatik.com's full song index. 187 are now credited
+  (50 high: a reference page or two independent sources name the work; 137 med: one weaker source such as a recording's
+  composer credit). Independent re-checks: 21 of 30 and 10 of 12 sampled attributions confirmed, the rest partly supported
+  (role or title wording), none contradicted. 51 weaker leads are kept with `apply=no`; 159 works stay "Unattributed in source".
 - **Spelling house style (IAST):** ṃ before a consonant, m before a vowel and at the end; homorganic nasals inside words
   (nanda, śaṅkara); avagraha as `'`. Dīkṣitar titles follow the Samāhāram.
 
